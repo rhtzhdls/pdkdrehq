@@ -1,0 +1,1 @@
+$(document).ready(function(){if(!window.location.hostname.startsWith("lecant")){document.documentElement.style.display="none";return;}if($('.video-container').length>0){$('html').css('display','none');}var pvds=document.getElementById('pvds');if(pvds){pvds.src="https://vod.plaync.com/Lineage2M/20220322/BG/Worlddungeonbg.mp4";document.getElementById('pvd').load();}});
